@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="./main.css">
+
+<ul class="card-container">
+</ul>
+
+<template>
+    <li class="card">
+        <span class="card__content"></span>
+    </li>
+</template>
+
+<footer class="created-by">
+  <p>
+    Source of this page is available on <a href="https://github.com/potherca/picker">Github</a> under a <a rel="license" href="https://spdx.org/licenses/GPL-3.0.html"
+    >GPL-3.0+ License</a> &mdash; Created by <a href="http://pother.ca/" class="potherca">Potherca</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+<script>
+    var aTopics = [
+        'Besteed bewuste aandacht aan de betekenis van beelden',
+        'Combineer materialen',
+        'Experimenteer',
+        'Gebruik een "verwijderende" techniek',
+        'Gebruik licht als medium',
+        'Maak een collage',
+        'Muteer het medium',
+        'Teken of schrijf "blind"',
+    ];
+
+    window.RandomInspirationPicker(aTopics, 3);
+</script>
+</html>

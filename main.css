@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+@import url(https://pother.ca/CssBase/css/created-by-potherca.css);
+
+html, body {
+    height: 100%;
+}
+
+html {
+  background: #BA9A6D url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    overflow: auto;
+}
+
+.card {
+    box-shadow: 0 0.4em 0.8em 0 rgba(0,0,0,0.6);
+    width: 20em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background: white;
+    color: #ff69b4;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.card:hover {
+    box-shadow: 0 0.8em 1.6em 0 rgba(0,0,0,0.8);
+}
+
+.card__content {
+    text-align: center;
+    margin:auto;
+}
+
+footer {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: rgba(255,255,255,0.4);
+}
+
+footer p {
+    padding: 0.25em 1em;
+}
